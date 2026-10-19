@@ -1,0 +1,130 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">企业知识库建设方案摘要</title>
+  <desc id="desc">以 WeKnora 为底座，从知识供给、知识底座到 Agent 应用的建设全景，以及从高质量知识、混合检索、Agentic RAG 到 Ontology 的演进路径。</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f7f9fc"/>
+      <stop offset="1" stop-color="#eef3f9"/>
+    </linearGradient>
+    <linearGradient id="primary" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#2563eb"/>
+      <stop offset="1" stop-color="#0f766e"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#2563eb"/>
+      <stop offset="1" stop-color="#7c3aed"/>
+    </linearGradient>
+    <filter id="shadow" x="-12%" y="-12%" width="124%" height="124%">
+      <feDropShadow dx="0" dy="10" stdDeviation="14" flood-color="#1e293b" flood-opacity="0.10"/>
+    </filter>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#64748b"/>
+    </marker>
+  </defs>
+
+  <rect width="1600" height="900" fill="url(#bg)"/>
+  <circle cx="1510" cy="80" r="180" fill="#e0eaff" opacity="0.45"/>
+  <circle cx="80" cy="830" r="170" fill="#d8f3ef" opacity="0.48"/>
+
+  <text x="80" y="78" font-family="'PingFang SC','Microsoft YaHei','Noto Sans SC',sans-serif" font-size="40" font-weight="700" fill="#172554">企业知识库建设全景</text>
+  <text x="80" y="124" font-family="'PingFang SC','Microsoft YaHei','Noto Sans SC',sans-serif" font-size="21" fill="#475569">结论：以 WeKnora 为第一阶段底座，先治理知识，再优化检索，最后演进 Agentic RAG 与 Ontology</text>
+
+  <rect x="1025" y="50" width="500" height="72" rx="36" fill="#ffffff" stroke="#bfdbfe" stroke-width="2" filter="url(#shadow)"/>
+  <circle cx="1065" cy="86" r="18" fill="url(#primary)"/>
+  <path d="M 1057 92 L 1065 76 L 1073 92 Z" fill="#ffffff"/>
+  <text x="1095" y="82" font-family="'PingFang SC','Microsoft YaHei','Noto Sans SC',sans-serif" font-size="19" font-weight="700" fill="#1e293b">一次建设 · 多场景复用</text>
+  <text x="1095" y="107" font-family="'PingFang SC','Microsoft YaHei','Noto Sans SC',sans-serif" font-size="15" fill="#64748b">知识问答 / Agent / 业务系统 / IM</text>
+
+  <g filter="url(#shadow)">
+    <rect x="75" y="180" width="350" height="430" rx="26" fill="#ffffff" stroke="#dbe4ef"/>
+    <rect x="75" y="180" width="350" height="68" rx="26" fill="#eff6ff"/>
+    <rect x="75" y="222" width="350" height="26" fill="#eff6ff"/>
+  </g>
+  <text x="110" y="223" font-family="'PingFang SC','Microsoft YaHei','Noto Sans SC',sans-serif" font-size="24" font-weight="700" fill="#1d4ed8">01 知识供给</text>
+  <text x="110" y="279" font-family="'PingFang SC','Microsoft YaHei','Noto Sans SC',sans-serif" font-size="16" fill="#64748b">从“上传文件”变成“生产可信知识”</text>
+  <g font-family="'PingFang SC','Microsoft YaHei','Noto Sans SC',sans-serif" font-size="18" fill="#334155">
+    <rect x="105" y="306" width="290" height="47" rx="14" fill="#f8fafc" stroke="#e2e8f0"/><text x="126" y="336">资料准入：来源 / Owner / 版本</text>
+    <rect x="105" y="369" width="290" height="47" rx="14" fill="#f8fafc" stroke="#e2e8f0"/><text x="126" y="399">解析清洗：OCR / 表格 / 代码</text>
+    <rect x="105" y="432" width="290" height="47" rx="14" fill="#f8fafc" stroke="#e2e8f0"/><text x="126" y="462">元数据标注：权限 / 场景</text>
+    <rect x="105" y="495" width="290" height="47" rx="14" fill="#f8fafc" stroke="#e2e8f0"/><text x="126" y="525">分片索引：语义 / 精确标识</text>
+    <rect x="105" y="558" width="290" height="47" rx="14" fill="#f8fafc" stroke="#e2e8f0"/><text x="126" y="588">质量验收：Hit@K / MRR</text>
+  </g>
+
+  <g filter="url(#shadow)">
+    <rect x="480" y="180" width="640" height="430" rx="28" fill="#ffffff" stroke="#c7d7ee"/>
+    <rect x="480" y="180" width="640" height="10" rx="5" fill="url(#accent)"/>
+  </g>
+  <text x="525" y="236" font-family="'PingFang SC','Microsoft YaHei','Noto Sans SC',sans-serif" font-size="27" font-weight="700" fill="#172554">02 WeKnora 企业知识底座</text>
+  <text x="525" y="270" font-family="'PingFang SC','Microsoft YaHei','Noto Sans SC',sans-serif" font-size="16" fill="#64748b">统一管理知识对象、检索通道、权限版本与持续评测</text>
+
+  <g font-family="'PingFang SC','Microsoft YaHei','Noto Sans SC',sans-serif">
+    <rect x="520" y="305" width="270" height="103" rx="18" fill="#eff6ff" stroke="#bfdbfe"/>
+    <text x="545" y="343" font-size="20" font-weight="700" fill="#1d4ed8">混合检索</text>
+    <text x="545" y="374" font-size="15" fill="#475569">向量 · 全文 · 直查 · 重排</text>
+
+    <rect x="810" y="305" width="270" height="103" rx="18" fill="#f0fdfa" stroke="#99f6e4"/>
+    <text x="835" y="343" font-size="20" font-weight="700" fill="#0f766e">GraphRAG</text>
+    <text x="835" y="374" font-size="15" fill="#475569">实体关系 · 业务链路扩展</text>
+
+    <rect x="520" y="432" width="270" height="103" rx="18" fill="#faf5ff" stroke="#ddd6fe"/>
+    <text x="545" y="470" font-size="20" font-weight="700" fill="#6d28d9">知识治理</text>
+    <text x="545" y="501" font-size="15" fill="#475569">权限 · 密级 · 版本 · 审计</text>
+
+    <rect x="810" y="432" width="270" height="103" rx="18" fill="#fff7ed" stroke="#fed7aa"/>
+    <text x="835" y="470" font-size="20" font-weight="700" fill="#c2410c">评测运营</text>
+    <text x="835" y="501" font-size="15" fill="#475569">召回测试 · 坏例回流</text>
+  </g>
+
+  <rect x="520" y="557" width="560" height="38" rx="19" fill="#f1f5f9" stroke="#e2e8f0"/>
+  <text x="552" y="582" font-family="'PingFang SC','Microsoft YaHei','Noto Sans SC',sans-serif" font-size="17" fill="#475569">能力出口：MCP / API / CLI / SDK</text>
+
+  <g filter="url(#shadow)">
+    <rect x="1175" y="180" width="350" height="430" rx="26" fill="#ffffff" stroke="#dbe4ef"/>
+    <rect x="1175" y="180" width="350" height="68" rx="26" fill="#f0fdfa"/>
+    <rect x="1175" y="222" width="350" height="26" fill="#f0fdfa"/>
+  </g>
+  <text x="1210" y="223" font-family="'PingFang SC','Microsoft YaHei','Noto Sans SC',sans-serif" font-size="24" font-weight="700" fill="#0f766e">03 应用与行动</text>
+  <text x="1210" y="279" font-family="'PingFang SC','Microsoft YaHei','Noto Sans SC',sans-serif" font-size="16" fill="#64748b">让知识进入业务流程，而不只停留在问答</text>
+  <g font-family="'PingFang SC','Microsoft YaHei','Noto Sans SC',sans-serif" font-size="18" fill="#334155">
+    <rect x="1205" y="306" width="290" height="47" rx="14" fill="#f8fafc" stroke="#e2e8f0"/><text x="1226" y="336">聊天 Agent：问答与方案生成</text>
+    <rect x="1205" y="369" width="290" height="47" rx="14" fill="#f8fafc" stroke="#e2e8f0"/><text x="1226" y="399">业务系统：查询与上下文供给</text>
+    <rect x="1205" y="432" width="290" height="47" rx="14" fill="#f8fafc" stroke="#e2e8f0"/><text x="1226" y="462">IM 入口：飞书 / 微信触达</text>
+    <rect x="1205" y="495" width="290" height="47" rx="14" fill="#f8fafc" stroke="#e2e8f0"/><text x="1226" y="525">受控行动：任务 / 人工确认</text>
+    <rect x="1205" y="558" width="290" height="47" rx="14" fill="#f8fafc" stroke="#e2e8f0"/><text x="1226" y="588">反馈闭环：坏例修正知识</text>
+  </g>
+
+  <g stroke="#64748b" stroke-width="3" fill="none" marker-end="url(#arrow)">
+    <path d="M 425 395 L 472 395"/>
+    <path d="M 1120 395 L 1167 395"/>
+  </g>
+
+  <g filter="url(#shadow)">
+    <rect x="75" y="668" width="1450" height="100" rx="24" fill="#ffffff" stroke="#dbe4ef"/>
+  </g>
+  <text x="110" y="708" font-family="'PingFang SC','Microsoft YaHei','Noto Sans SC',sans-serif" font-size="21" font-weight="700" fill="#172554">演进路径</text>
+  <text x="110" y="736" font-family="'PingFang SC','Microsoft YaHei','Noto Sans SC',sans-serif" font-size="15" fill="#64748b">每一步都以评测结果驱动</text>
+
+  <g font-family="'PingFang SC','Microsoft YaHei','Noto Sans SC',sans-serif">
+    <path d="M 270 690 L 420 690 L 450 718 L 420 746 L 270 746 Z" fill="#eff6ff" stroke="#bfdbfe"/>
+    <text x="310" y="716" font-size="18" font-weight="700" fill="#1d4ed8">高质量知识</text>
+    <text x="310" y="738" font-size="13" fill="#64748b">准入 · 分片 · 元数据</text>
+
+    <path d="M 465 690 L 615 690 L 645 718 L 615 746 L 465 746 Z" fill="#f0fdfa" stroke="#99f6e4"/>
+    <text x="505" y="716" font-size="18" font-weight="700" fill="#0f766e">高质量检索</text>
+    <text x="505" y="738" font-size="13" fill="#64748b">混合召回 · 重排 · 评测</text>
+
+    <path d="M 660 690 L 810 690 L 840 718 L 810 746 L 660 746 Z" fill="#faf5ff" stroke="#ddd6fe"/>
+    <text x="700" y="716" font-size="18" font-weight="700" fill="#6d28d9">Agentic RAG</text>
+    <text x="700" y="738" font-size="13" fill="#64748b">规划 · 工具 · 证据校验</text>
+
+    <path d="M 855 690 L 1005 690 L 1035 718 L 1005 746 L 855 746 Z" fill="#fff7ed" stroke="#fed7aa"/>
+    <text x="895" y="716" font-size="18" font-weight="700" fill="#c2410c">Ontology</text>
+    <text x="895" y="738" font-size="13" fill="#64748b">实体 · 关系 · 业务约束</text>
+
+    <rect x="1065" y="690" width="420" height="56" rx="18" fill="#f8fafc" stroke="#e2e8f0"/>
+    <text x="1095" y="725" font-size="17" fill="#475569">最终形态：可治理的业务事实基础设施</text>
+  </g>
+
+  <text x="80" y="830" font-family="'PingFang SC','Microsoft YaHei','Noto Sans SC',sans-serif" font-size="19" font-weight="700" fill="#334155">核心取舍：简单问题走轻量固定管道，复杂问题才启用多轮规划；答案必须带来源、版本和适用范围。</text>
+  <text x="80" y="862" font-family="'PingFang SC','Microsoft YaHei','Noto Sans SC',sans-serif" font-size="16" fill="#64748b">涉及资金、状态变更、对外发送、删除或批量写入的动作，Agent 只准备建议，由人工或既有审批流程确认。</text>
+</svg>
